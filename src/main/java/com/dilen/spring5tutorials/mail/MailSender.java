@@ -1,0 +1,8 @@
+package com.dilen.spring5tutorials.mail;
+
+import javax.mail.MessagingException;
+
+public interface MailSender {
+
+	void send (String to,String subject,String body) throws MessagingException;
+}
